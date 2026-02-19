@@ -4,6 +4,11 @@
 // n -> n/2 -> n/4 -> n/8 -> ... -> 1 = log n
 // Binary search works only on sorted arrays
 // BS is a divide and conquer algorithm
+// Base case - when the target is found or when the search space is exhausted (left > right)
+// Left will always be less than or equal to right, 
+// because we are halving the search space in each step. 
+// If left becomes greater than right, 
+// it means we have exhausted the search space and the target is not found.
 // BS is very optimized
 // Space Complexity: O(1) - Constant space
 

@@ -1,10 +1,22 @@
 // LC 278. First Bad Version
-// [good, good, good, bad, bad, bad]
-//                ↑
-//          first bad version
+
 // Minimum number of calls to isBadVersion API to find the first bad version
 // Solve this problem on LeetCode: https://leetcode.com/problems/first-bad-version/
 // https://www.youtube.com/watch?v=86SBizUsbGY
+
+// BOUNDARY CONDIION:
+// while(left <= right) - X
+// while(left < right) - ✓
+// We do not seach for the actual index, insead we are looking for boundary between valid/invalid
+
+// [good, good, good, bad, bad, bad]
+//                ↑
+//          first bad version
+
+// Example problesms that follow this pattern:
+// Koko eating bananas
+// First bad version
+// Minimum capacity problems
 
 // ------------------------------------------------------------------------
 
