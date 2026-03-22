@@ -52,7 +52,7 @@ public class TwoSum {
     // ----------------------------------------------------------------------
 
     // Hash Map Approach
-    // 1. Search for comlement of each element in the hash map.
+    // 1. Search for complement of each element in the hash map.
     // 2. If found, return the indices of the two numbers.
     // 3. Store the numbers arr[i] and their indices in a hash map.
     // - O(1) average time complexity lookups.
@@ -67,7 +67,8 @@ public class TwoSum {
             int complement = target - num;
 
             if (map.containsKey(complement)) { // If the complement exists in the map, we found a solution
-                return new int[] { map.get(complement), i };
+                return new int[] { map.get(complement), i }; // Return the indices of the complement and the current
+                                                             // number
             }
             map.put(num, i); // Store the current number and its index in the map for future reference
         }

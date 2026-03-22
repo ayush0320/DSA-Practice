@@ -8,6 +8,9 @@
 
 // Array: index based access
 // Linked List: pointer based navigation
+// • In a Linked List , entire list can be accessed from the head node
+// • Never manipulate the head node, always manipulate the next pointer of the current node
+// • The entire list is connected through .next pointers in a Linked List
 
 // Pattern:
 // Reversing pointers (links) one by one
@@ -37,27 +40,51 @@ class ListNode {
 
 class ReverseLinkedList {
 
-    // Reverse the linked list - iterative approach
+    // Reverse - ITERATIVE APPROACH
     // Time complexity: O(n) where n is the number of nodes in the linked list
     // Space complexity: O(1) since we are using only a constant amount
     public ListNode reverseLinkedList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head; // base case: empty list or single node is already reversed
+        }
+
         ListNode prev = null; // previous node (initially null)
         ListNode curr = head; // current node (initially head of the list)
 
         while (curr != null) {
-            ListNode next = curr.next; // store the next node (initially null)
+            ListNode temp = curr.next; // store the next node (initially null)
             curr.next = prev; // reverse the current node's pointer to point to the previous node
             prev = curr; // move the previous pointer to the current node
-            curr = next; // move the current pointer to the next node (stored in next)
+            curr = temp; // move the current pointer to the next node (stored in temp)
         }
 
         return prev; // prev will be the new head of the reversed list
     }
 
+    // Reverse - RECURSIVE APPROACH
+    // Time complexity: O(n) where n is the number of nodes in the linked list
+    // Space complexity: O(n) due to recursive call stack
+    public ListNode reverseList(ListNode head) {
+        // base case
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode newHead = reverseList(head.next);
+
+        head.next.next = head; // reverse
+        head.next = null; // break link
+
+        return newHead;
+    }
+
+    // --------------------
+
     // Helper function: create a linked list from an array
     public ListNode createLinkedList(int[] arr) {
-        if (arr.length == 0)
+        if (arr.length == 0) {
             return null; // edge case: empty array
+        }
 
         ListNode head = new ListNode(arr[0]); // create head node
         ListNode curr = head; // pointer to track current node
@@ -70,6 +97,8 @@ class ReverseLinkedList {
         return head;
     }
 
+    // --------------------
+
     // Print the linked list
     public void printLinkedList(ListNode head) {
         ListNode curr = head; // pointer to track current node
@@ -80,6 +109,8 @@ class ReverseLinkedList {
         }
         System.out.println("null"); // end of the list
     }
+
+    // --------------------
 
     public static void main(String[] args) {
         ReverseLinkedList solution = new ReverseLinkedList();
@@ -94,7 +125,7 @@ class ReverseLinkedList {
 
         // Reverse the linked list
         System.out.println("Reversed List: ");
-        head = solution.reverseLinkedList(head);
+        head = solution.reverseList(head);
         solution.printLinkedList(head);
 
     }
