@@ -1,8 +1,9 @@
 // LC 21. Merge Two Sorted Lists
 // https://youtu.be/jXu-H7XuClE
 
-// Pattern: Dummy Node Pattern
-// • A temporary node used to simplify edge cases in linked list operations,
+// Pattern:
+// • Merging logic
+// • Dummy Node: A temporary node used to simplify edge cases in linked list operations,
 //   such as merging two lists or adding nodes to an empty list. 
 //   It acts as a placeholder before the actual head of the merged list, 
 //   allowing for easier manipulation of pointers without needing to check for null values.
