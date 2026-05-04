@@ -12,18 +12,25 @@ import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversal {
 
+    // Definition of a binary tree node
     static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
 
+        // Constructors for TreeNode class
+        // Default constructor - initializes the value to 0 and left and right children
+        // to null
         TreeNode() {
         }
 
+        // Constructor to initialize the value of the node
+        // left and right children will be null by default
         TreeNode(int val) {
             this.val = val;
         }
 
+        // To initialize the value and the left and right children of the node
         TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
