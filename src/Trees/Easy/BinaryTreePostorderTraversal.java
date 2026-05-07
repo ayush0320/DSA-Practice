@@ -1,5 +1,7 @@
 // LC. 145. Binary Tree Postorder Traversal
 
+package trees.easy;
+
 import java.util.ArrayList;
 import java.util.List;
 

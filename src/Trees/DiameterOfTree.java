@@ -1,3 +1,4 @@
+package trees;
 // Diameter of a Tree:
 // Num of nodes in the longest path between any 2 nodes
 // - Diameter pass through the root

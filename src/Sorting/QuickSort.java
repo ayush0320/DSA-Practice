@@ -1,4 +1,6 @@
+package sorting;
 // Quick Sort
+
 // https://www.youtube.com/watch?v=8MNB0Mba_Dc
 // • A divide-and-conquer algorithm 
 // • Works by selecting a 'pivot' element from the array

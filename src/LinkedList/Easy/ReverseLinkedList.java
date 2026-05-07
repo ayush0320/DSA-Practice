@@ -1,3 +1,5 @@
+package linkedlist.easy;
+package linkedlist.Easy;
 // LC 206: Reverse Linked List
 // • No extra space allowed (O(1) space)
 // • Time complexity: O(n) where n is the number of nodes in the linked list

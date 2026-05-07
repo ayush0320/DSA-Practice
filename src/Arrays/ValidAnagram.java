@@ -1,4 +1,6 @@
+package arrays;
 // Bucket array implementation for Valid Anagram problem
+
 // Easy
 
 public class ValidAnagram {

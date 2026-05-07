@@ -1,3 +1,4 @@
+package oops;
 // https://www.youtube.com/watch?v=bSrm9RXwBaI
 // Example of OOPS concepts: Class and Object
 
@@ -55,7 +56,8 @@ class Student {
     // Copy constructor
     Student(Student s2) {
         this.name = s2.name;
-        this.age = s2.age;
+     
+
     }
     public void info() {
         System.out.println(this.name);

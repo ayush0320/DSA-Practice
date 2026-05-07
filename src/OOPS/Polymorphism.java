@@ -1,3 +1,4 @@
+package oops;
 class Animal {
     String type;
     int age;

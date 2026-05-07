@@ -1,3 +1,5 @@
+package trees;
+
 public class HeightOfTree {
     static class Node {
         int data;

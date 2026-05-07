@@ -1,3 +1,5 @@
+package linkedlist.easy;
+package linkedlist.Easy;
 // LC 876. Middle of the Linked List
 
 // https://youtu.be/7LjQ57RqgEc

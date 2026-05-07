@@ -1,3 +1,4 @@
+package binarysearch.easy;
 // LC 278. First Bad Version
 
 // Minimum number of calls to isBadVersion API to find the first bad version

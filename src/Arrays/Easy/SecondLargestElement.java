@@ -1,4 +1,6 @@
-import java.util.Arrays;
+package arrays.easy;
+
+// import java.util.Arrays;
 
 public class SecondLargestElement {
 
@@ -35,7 +37,7 @@ public class SecondLargestElement {
     // largest element and once to find the second largest element. This simplifies
     // to O(n).
     static int secondLargest(int[] arr) {
-        int n = arr.length;
+        // int n = arr.length;
         int largest = Integer.MIN_VALUE; // Initialize largest to minimum value
         int secondLargest = Integer.MIN_VALUE; // Initialize second largest to minimum value
 

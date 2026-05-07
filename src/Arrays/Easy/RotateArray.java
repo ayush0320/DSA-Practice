@@ -1,4 +1,6 @@
+package arrays.easy;
 // https://leetcode.com/problems/rotate-array/
+
 // Given an array, rotate the array to the right by k steps, where k is non-negative.
 // %n -> output will be in range of 0 to n-1
 // Example: k = 3, n = 7, k % n = 3

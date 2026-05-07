@@ -1,3 +1,4 @@
+package recursion;
 public class Nto1 {
 
     static void printNto1(int n) {

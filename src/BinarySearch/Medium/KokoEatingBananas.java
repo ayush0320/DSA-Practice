@@ -1,4 +1,6 @@
+package binarysearch.medium;
 // LC875 - Koko Eating Bananas
+
 // https://www.youtube.com/watch?v=qyfekrNni90
 // https://www.youtube.com/watch?v=U2SozAs9RzA
 // CONCEPT - BINARY SEARCH ON THE ANSWER SPACE

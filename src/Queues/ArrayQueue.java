@@ -1,3 +1,4 @@
+package queues;
 // https://youtu.be/va_6RmSrKCg
 
 // Queue: FIFO (First In First Out) data structure

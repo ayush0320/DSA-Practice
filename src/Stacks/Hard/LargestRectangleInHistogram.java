@@ -1,3 +1,4 @@
+package stacks.hard;
 // LC84. Largest Rectangle in Histogram
 
 // Right smaller, left smaller, then calculate 

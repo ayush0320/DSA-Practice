@@ -1,4 +1,4 @@
-package Trees.model;
+package trees.model;
 
 // Definition of a binary tree node
 public class TreeNode {

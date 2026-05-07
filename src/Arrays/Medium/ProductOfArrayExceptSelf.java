@@ -1,3 +1,5 @@
+package arrays.medium;
+
 import java.util.Arrays;
 
 // LC238

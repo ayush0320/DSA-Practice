@@ -1,3 +1,4 @@
+package binarysearch.easy;
 // LC704
 
 // Time Complexity: O(log n) - Binary Search

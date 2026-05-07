@@ -1,4 +1,6 @@
+package sorting;
 // Merge Sort
+
 // https://www.youtube.com/watch?v=cQDtOBTy7_Y
 // • A divide-and-conquer algorithm that divides the input array into two halves,
 //   calls itself for the two halves, and then merges the two sorted halves.

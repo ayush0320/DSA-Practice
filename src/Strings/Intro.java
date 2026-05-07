@@ -1,4 +1,6 @@
+package strings;
 // String is a class in Java, so we can create String objects
+
 // DataType refVariableName = objectValue;
 // String pool - a special memory area where String literals are stored.
 // String pool allows for memory optimization by reusing String literals.

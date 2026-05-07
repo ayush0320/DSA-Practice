@@ -1,4 +1,6 @@
+package binarysearch.easy;
 // Floor and Ceil of a target in a sorted array
+
 // Floor - largest element <= target (closest smaller element)
 // Ceil - smallest element >= target (closest greater element)
 // x = 25

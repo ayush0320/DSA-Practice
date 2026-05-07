@@ -1,4 +1,4 @@
-package Stacks.Hard;
+package stacks.hard;
 
 public class SlidingWindowMaximum {
 

@@ -1,4 +1,6 @@
+package trees;
 // Binary Tree
+
 // - A binary tree is a heirarchical tree data structure
 // - each node has at most two children.
 // - Each node in a binary tree contains a value and references to its left and right children.

@@ -1,3 +1,4 @@
+package stacks.medium;
 // LC . 739 Daily Temperatures
 // https://youtu.be/ekFs9Nb2RNQ
 

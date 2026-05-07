@@ -1,3 +1,4 @@
+package trees.easy;
 
 // LC. 144. Binary Tree Preorder Traversal
 import java.util.*;

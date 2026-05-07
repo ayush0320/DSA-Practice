@@ -1,3 +1,4 @@
+package stacks.medium;
 // LC. 901 Online Stock Span
 // https://leetcode.com/problems/online-stock-span/description/
 // https://youtu.be/01vBuZyMfqk

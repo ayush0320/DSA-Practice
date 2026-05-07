@@ -1,3 +1,4 @@
+package linkedlist.medium;
 // Lc 160. Intersection of Two Linked Lists
 // https://youtu.be/0DYoPz2Tpt4s
 

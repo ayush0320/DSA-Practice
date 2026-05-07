@@ -1,4 +1,6 @@
+package arrays.medium;
 // LC560
+
 // Signals: HashMap, Prefix Sum
 
 // https://www.youtube.com/watch?v=KDH4mhFVvHw

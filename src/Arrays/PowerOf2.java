@@ -1,3 +1,4 @@
+package arrays;
 // Easy
 // A number is a power of 2 if (and only if) it’s greater than zero 
 // and has exactly 1 bit set in its binary representation.

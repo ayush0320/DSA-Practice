@@ -1,3 +1,4 @@
+package arrays;
 import java.util.*;
 
 // https://www.youtube.com/watch?v=KDZ_IXvpMG4

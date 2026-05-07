@@ -1,3 +1,4 @@
+package stacks.easy;
 // https://youtu.be/7m1DMYAbdiY
 
 // Push an element at the bottom of a stack using recursion.

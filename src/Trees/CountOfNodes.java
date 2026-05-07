@@ -1,3 +1,4 @@
+package trees;
 // Using recursion, count the number of nodes in a binary tree.
 
 // ------------------------------------------------------------------------

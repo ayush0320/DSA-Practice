@@ -1,3 +1,5 @@
+package linkedlist.easy;
+package linkedlist.Easy;
 // LC 234. Palindrome Linked List
 // https://youtu.be/lNCwD7QswjI
 

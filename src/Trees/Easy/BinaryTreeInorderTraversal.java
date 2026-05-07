@@ -6,6 +6,7 @@
 // Postorder: Left  -> Right -> Root
 
 //--------------------------------------------------------------
+package trees.easy;
 
 import java.util.*;
 

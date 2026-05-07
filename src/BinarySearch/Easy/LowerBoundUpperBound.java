@@ -1,3 +1,5 @@
+package binarysearch.easy;
+
 public class LowerBoundUpperBound {
 
     // Lower Bound - smallest index suck that nums[index] >= target

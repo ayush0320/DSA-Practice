@@ -1,4 +1,6 @@
+package arrays.medium;
 // LC209
+
 // Sliding Window (Variable Size)
 // Signals: Sliding Window, Two Pointers
 // ✅ contiguous subarray

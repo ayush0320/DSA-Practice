@@ -1,3 +1,4 @@
+package stacks.easy;
 // LC . 496 Next Greater Element I
 // Monotonic Stack - https://youtu.be/mcOXqqX6D54
 // Solution - https://youtu.be/8BDKB2yuGyg

@@ -1,3 +1,5 @@
+package recursion;
+
 public class Pattern1 {
 
     static void triangle1(int row, int col) {

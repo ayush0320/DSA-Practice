@@ -1,3 +1,4 @@
+package linkedlist.notes;
 // https://youtu.be/e0s-zmpedYo
 
 public class TraverseLinkedList {

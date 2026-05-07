@@ -1,3 +1,4 @@
+package recursion.medium;
 // LC 50. Pow(x, n)
 // https://www.youtube.com/watch?v=l0YC3876qxg
 // Given a double x and an integer n, return the result of x raised to the power n (i.e., x^n).

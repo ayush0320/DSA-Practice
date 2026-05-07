@@ -1,3 +1,4 @@
+package sorting;
 // Insertion Sort
 // https://www.youtube.com/watch?v=1jCFUv-Xlqo&t=461s
 // • A simple sorting algorithm that builds the final sorted array one item at a time.

@@ -2,12 +2,12 @@
 
 //--------------------------------------------------------------
 
-package Trees.Easy;
+package trees.easy;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-import Trees.model.TreeNode;
+import trees.model.TreeNode;
 
 public class MaximumDepthOfBinaryTree {
 

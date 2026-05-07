@@ -1,4 +1,6 @@
+package binarysearch.medium;
 // LC 1011. Capacity To Ship Packages Within D Days
+
 // https://www.youtube.com/watch?v=MG-Ac4TAvTY
 // CONCEPT - BINARY SEARCH ON THE ANSWER SPACE
 // We can apply BS on unsorted array by eliminating the search space based on the feasibility of the solution.

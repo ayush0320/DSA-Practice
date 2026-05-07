@@ -1,4 +1,6 @@
+package binarysearch.medium;
 // LC34. Find First and Last Position of Element in Sorted Array
+
 //https://www.youtube.com/watch?v=hjR1IYVx9lY&list=PLF6ChxadzFf8vjafLIxxbKUfarW4V4IOh&index=3
 
 public class FindFirstAndLastPositionOfElement {

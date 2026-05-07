@@ -1,4 +1,6 @@
+package strings;
 // String Builder is a mutable sequence of characters, unlike String which is immutable.
+
 // StringBuilder is more efficient for concatenating strings in a loop or when performing multiple modifications to a string
 // It does not create a new object each time like String does.
 // Used when you need to modify a string frequently, such as in loops or when building a string from multiple parts.

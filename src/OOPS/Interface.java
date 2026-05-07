@@ -1,3 +1,4 @@
+package oops;
 // Interface in Java
 // - An interface is a reference type in Java, similar to a class, 
 // that can contain only constants, method signatures, default methods, 
@@ -11,6 +12,7 @@
 // - A class that implements an interface must implement all of its methods
 
 interface Animal {
+
     int eyes = 2; // public, static, final by default
     void eat(); // Abstract method
 }

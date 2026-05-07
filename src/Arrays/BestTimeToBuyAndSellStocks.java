@@ -1,3 +1,5 @@
+package arrays;
+
 public class BestTimeToBuyAndSellStocks {
     // Brute Force Approach
     // public static int maxProfit(int[] prices) {

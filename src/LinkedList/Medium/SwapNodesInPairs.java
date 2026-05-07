@@ -1,3 +1,5 @@
+package linkedlist.medium;
+package linkedlist.Medium;
 // LC 24. Swap Nodes in Pairs
 
 // ------------------------------------------------------------------------

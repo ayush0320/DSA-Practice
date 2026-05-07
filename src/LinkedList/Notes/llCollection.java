@@ -1,3 +1,4 @@
+package linkedlist.notes;
 import java.util.LinkedList;
 
 // Demonstration of LinkedList collection in Java

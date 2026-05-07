@@ -1,3 +1,4 @@
+package sorting;
 // Selection Sort
 // https://www.youtube.com/watch?v=1jCFUv-Xlqo&t=461s
 // • A simple sorting algorithm that divides the input list into two parts:

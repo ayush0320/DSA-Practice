@@ -1,3 +1,4 @@
+package arrays;
 // Easy
 
 public class PowerOf3 {

@@ -1,3 +1,4 @@
+package arrays.medium;
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 // Pattern: Two Pointers

@@ -1,5 +1,7 @@
 // LC. 572 Subtree of Another Tree
 
+package trees.easy;
+
 public class SubTreeOfAnotherTree {
 
     // Definition for a binarytree node.

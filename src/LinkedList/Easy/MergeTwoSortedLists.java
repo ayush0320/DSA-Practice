@@ -1,3 +1,5 @@
+package linkedlist.easy;
+package linkedlist.Easy;
 // LC 21. Merge Two Sorted Lists
 // https://youtu.be/jXu-H7XuClE
 

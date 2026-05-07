@@ -1,3 +1,4 @@
+package linkedlist.notes;
 // https://youtu.be/oAja8-Ulz6o
 
 // Array List vs Linked List

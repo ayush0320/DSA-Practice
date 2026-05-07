@@ -1,4 +1,6 @@
+package binarysearch.medium;
 //LC33 - Search in Rotated Sorted Array
+
 // Understanding boundary logic
 //https://www.youtube.com/watch?v=6WNZQBHWQJs
 

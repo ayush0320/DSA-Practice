@@ -1,3 +1,5 @@
+package arrays;
+
 public class SetMAtrixZeroes {
     public static void setZeroes(int[][] matrix) {
         // Brute Force Approach

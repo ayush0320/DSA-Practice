@@ -1,3 +1,4 @@
+package linkedlist.easy;
 // LC 141. Linked List Cycle
 
 // Pattern: Tortoise and Hare (Fast & Slow Pointer) Pattern
