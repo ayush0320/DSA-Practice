@@ -1,4 +1,6 @@
 // LC 236. Lowest Common Ancestor of a Binary Tree
+// https://youtu.be/_-QHfMDde90
+// Pattern -> DFS, Recursion
 // -> Ancestor: every parent node that exists in the path 
 // from node n up to root
 // -> A node can be it's own ancestor
