@@ -21,11 +21,12 @@ public class LowestCommonAncestor {
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
 
+        // Result
         if (left == null) {
             return right;
         } else if (right == null) {
             return left;
-        } else {
+        } else { // If both left and right are not null (answer not found)
             return root;
         }
 
