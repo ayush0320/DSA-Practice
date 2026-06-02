@@ -1,14 +1,12 @@
+// LC 169. Majority Element
+
+// HashMap / HashSet / Frequency counting
+// Use when: Find duplicates / Count elements / Fast lookup
+// Pattern -> Boyer-Moore Voting Algorithm
+
 package arrays.easy;
 
 import java.util.HashMap;
-import java.util.Map;
-
-// Pattern -> 
-// HashMap / HashSet / Frequency counting
-// Use when: Find duplicates / Count elements / Fast lookup
-
-// https://leetcode.com/problems/majority-element/
-// Pattern -> Boyer-Moore Voting Algorithm
 
 public class MajorityElement {
 
@@ -21,22 +19,23 @@ public class MajorityElement {
 
     // ------------
 
-    // static int majority(int[] nums) {
-    // int count = 0;
-    // int n = nums.length;
-    // for (int i = 0; i < n; i++) {
-    // count = 0; // reset count for each element
-    // for (int j = 0; j < n; j++) {
-    // if (nums[i] == nums[j]) {
-    // count++;
-    // }
-    // }
-    // if (count > n / 2) {
-    // return nums[i];
-    // }
+    static int majority(int[] nums) {
+        int count = 0;
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            count = 0; // reset count for each element
+            for (int j = 0; j < n; j++) {
+                if (nums[i] == nums[j]) {
+                    count++;
+                }
+            }
+            if (count > n / 2) {
+                return nums[i];
+            }
 
-    // }
-    // return -1;
+        }
+        return -1;
+    }
 
     // _______________________________________________________________________
 
@@ -52,18 +51,18 @@ public class MajorityElement {
 
     // ------------
 
-    // static int majority(int[] nums) {
-    // HashMap<Integer, Integer> map = new HashMap<>();
-    // int n = nums.length;
-    // for (int num : nums) {
+    static int majorityII(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        for (int num : nums) {
 
-    // map.put(num, map.getOrDefault(num, 0) + 1);
-    // if (map.get(num) > n / 2) {
-    // return num;
-    // }
-    // }
-    // return -1;
-    // }
+            map.put(num, map.getOrDefault(num, 0) + 1);
+            if (map.get(num) > n / 2) {
+                return num;
+            }
+        }
+        return -1;
+    }
 
     // _______________________________________________________________________
 
@@ -86,7 +85,7 @@ public class MajorityElement {
 
     // ------------
 
-    static int majority(int[] nums) {
+    static int majorityIII(int[] nums) {
         int candidate = 0;
         int count = 0;
 
