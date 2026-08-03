@@ -1,5 +1,5 @@
-package arrays.easy;
-
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -38,6 +38,25 @@ public class ContainsDuplicate {
         }
 
         return false;
+    }
+
+    // ----------------------------------------------------------------------
+
+    // Return array of duplicate values.
+
+    public static ArrayList<Integer> findDuplicates(int[] arr) {
+        int n = arr.length;
+        ArrayList<Integer> list = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            if (map.containsKey(arr[i])) {
+                list.add(arr[i]);
+            } else {
+                map.put(arr[i], i);
+            }
+        }
+        return list;
     }
 
     public static void main(String[] args) {

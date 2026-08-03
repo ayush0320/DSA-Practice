@@ -1,5 +1,3 @@
-package arrays.easy;
-
 // import java.util.Arrays;
 
 public class SecondLargestElement {

@@ -6,8 +6,6 @@
 
 //----------------------------------------------------------------------------------------
 
-package arrays.easy;
-
 import java.util.ArrayList;
 
 public class RemoveDuplicates {

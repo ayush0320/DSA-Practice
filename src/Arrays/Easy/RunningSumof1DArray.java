@@ -1,4 +1,3 @@
-package arrays.easy;
 //LC1480
 
 // Pattern - Prefix Sum

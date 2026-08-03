@@ -1,5 +1,3 @@
-package arrays.easy;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -60,6 +58,9 @@ public class TwoSum {
     // - O(1) average time complexity lookups.
     // - This allows us to find the complement of each number efficiently.
     // - Element - key and Index - value
+
+    // TC - O(n)
+    // SC - O(n)
 
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();

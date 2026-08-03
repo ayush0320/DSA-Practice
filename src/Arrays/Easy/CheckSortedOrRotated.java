@@ -1,4 +1,3 @@
-package arrays.easy;
 // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 
 // Given an array of distinct integers, return true if the array was originally sorted in non-decreasing order, 

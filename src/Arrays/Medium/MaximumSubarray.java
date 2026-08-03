@@ -29,10 +29,11 @@ class MaximumSubarray {
     // }
     // return maxSum;
     // }
-
+    //
     // _______________________________________________________________________
 
     // Optimal Approach (Kadane's Algorithm)
+    // Running-sum greedy/DP
     // If current sum becomes negative, should we keep it? NO.
     // Because -> Negative sum reduces future total. Better to start fresh.
     // Algorithm Steps:

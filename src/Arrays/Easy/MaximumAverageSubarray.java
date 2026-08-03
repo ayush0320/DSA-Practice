@@ -1,4 +1,3 @@
-package arrays.easy;
 // Sliding Window (Basic)
 
 // Signals: Continuous subarray/substring

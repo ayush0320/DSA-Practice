@@ -4,13 +4,11 @@
 // Use when: Find duplicates / Count elements / Fast lookup
 // Pattern -> Boyer-Moore Voting Algorithm
 
-package arrays.easy;
-
 import java.util.HashMap;
 
 public class MajorityElement {
 
-    // 1. Brute Force Approach
+    // 1. BRUTE FORCE APPROACH
     // Two nested loops to count the frequency of each element and find the majority
     // element
     // Time Complexity: O(n^2) - because we are counting the frequency of each
@@ -39,7 +37,7 @@ public class MajorityElement {
 
     // _______________________________________________________________________
 
-    // 2. Better Approach
+    // 2. BETTER APPRAOCH
     // Using HashMap to count the frequency of each element and find the majority
     // map.getOrDefault(num, 0) returns the current count of num in the map, or 0 if
     // num is not present in the map. We then add 1 to this count and put it back in
@@ -66,7 +64,7 @@ public class MajorityElement {
 
     // _______________________________________________________________________
 
-    // Optimal Approach
+    // OPTIMAL APPROACH
     // Boyer-Moore Voting Algorithm
     // Majority element appears more than all other elements combined.
     // If we cancel one majority element with one non-majority element, the majority
@@ -105,7 +103,7 @@ public class MajorityElement {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 2, 2, 1, 1, 2, 2 };
-        System.out.println(majority(nums));
+        int[] nums = { 1, 2, 3 };
+        System.out.println(majorityIII(nums));
     }
 }
