@@ -1,9 +1,9 @@
 // Sort an array of 0s, 1s and 2s - Dutch National Flag Problem
 // https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/
 
-// ========================================================================
+// =========================
 
-package arrays.medium;
+package arrays.hashing;
 
 import java.util.Arrays;
 
@@ -18,7 +18,7 @@ public class DutchNationalFlag {
         Arrays.sort(arr);
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------
 
     // DUTCH NATIONAL FLAG ALGORITHM - ONE PASS
     // TC = O(n)
@@ -29,8 +29,8 @@ public class DutchNationalFlag {
     // mid — the current element you're examining
     // high — everything after high is confirmed 2
 
-    // The unexamined/unknown region is always between mid and high. You march mid
-    // through the array and make a decision based on arr[mid]:
+    // The unexamined/unknown region is always between mid and high.
+    // You march mid through the array and make a decision based on arr[mid]:
     // If arr[mid] == 0 → it belongs in the "0 zone." Swap arr[mid] with arr[low],
     // then move both low++ and mid++
     // If arr[mid] == 1 → it's already in the right place. Just move mid++
@@ -75,7 +75,7 @@ public class DutchNationalFlag {
     // b = temp;
     // }
 
-    // ------------------------------------------------------------------------
+    // -------------------------
 
     public static void main(String[] args) {
         int[] arr = { 0, 1, 2, 0, 1, 2 };

@@ -1,7 +1,10 @@
 // Lc 268. Missing Number
+
 // https://leetcode.com/problems/missing-number/description/
 
 // ----------------------------------------------------------------------
+package arrays.hashing;
+
 import java.util.HashSet;
 
 public class MissingElement {

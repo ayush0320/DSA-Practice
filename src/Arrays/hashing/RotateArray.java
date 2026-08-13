@@ -4,6 +4,8 @@
 // %n -> output will be in range of 0 to n-1
 // Example: k = 3, n = 7, k % n = 3
 
+package arrays.hashing;
+
 import java.util.Arrays;
 
 public class RotateArray {

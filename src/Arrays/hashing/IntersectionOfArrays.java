@@ -2,6 +2,7 @@
 // https://leetcode.com/problems/intersection-of-two-arrays/
 
 // ----------------------------------------------------------------------
+package arrays.hashing;
 
 import java.util.HashSet;
 

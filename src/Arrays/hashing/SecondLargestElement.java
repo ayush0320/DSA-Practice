@@ -1,3 +1,4 @@
+package arrays.hashing;
 // import java.util.Arrays;
 
 public class SecondLargestElement {

@@ -4,6 +4,8 @@
 // Use when: Find duplicates / Count elements / Fast lookup
 // Pattern -> Boyer-Moore Voting Algorithm
 
+package arrays.hashing;
+
 import java.util.HashMap;
 
 public class MajorityElement {

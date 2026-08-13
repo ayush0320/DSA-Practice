@@ -1,7 +1,9 @@
 // GFG - https://www.geeksforgeeks.org/problems/frequency-of-elements--111353/1
+
 // HAshMap Counting
 
 // ===========================================================
+package arrays.hashing;
 
 import java.util.ArrayList;
 import java.util.HashMap;

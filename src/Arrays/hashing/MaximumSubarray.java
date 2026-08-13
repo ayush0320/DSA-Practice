@@ -1,8 +1,8 @@
-package arrays.medium;
 // https://leetcode.com/problems/maximum-subarray/description/
 
 // Array Traversal Pattern: Single-pass scanning
 // Signals -> Max/min / Running sum / Subarray basics
+package arrays.hashing;
 
 class MaximumSubarray {
 
